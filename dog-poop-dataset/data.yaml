@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['dog-poop']
+
+roboflow:
+  workspace: dog-poop
+  project: dog-poop-qdsbu
+  version: 11
+  license: Public Domain
+  url: https://universe.roboflow.com/dog-poop/dog-poop-qdsbu/dataset/11
